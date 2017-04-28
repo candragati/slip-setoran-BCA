@@ -1,0 +1,32 @@
+QLineEdit{
+    border-width: 1px;
+    padding: 1px;
+    border-style: solid;
+    border-color: darkkhaki;
+    border-radius: 2px;
+}
+
+QLineEdit::disabled{    
+    background-color: rgb(200, 200, 200);
+}
+
+QLineEdit:focus{
+    background-color: rgba(165, 255, 105, 112);
+}
+
+QPushButton:focus{
+    background-color:rgb(165, 255, 105);
+    border:3px
+}
+
+QHeaderView::section{
+    background-color:pink;
+    color:black;
+    border-width: 1px;
+    border-style: solid;
+    border-color: darkkhaki;
+    padding: 1px
+}
+
+QTableWidget{
+    alternate-background-color: rgb(235, 235, 235);}
